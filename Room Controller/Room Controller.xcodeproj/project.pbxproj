@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		236323EE197544390093B063 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 236323ED197544390093B063 /* Cocoa.framework */; };
+		236323F0197544390093B063 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 236323EF197544390093B063 /* AppleScriptObjC.framework */; };
+		236323FA197544390093B063 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 236323F8197544390093B063 /* InfoPlist.strings */; };
+		236323FC197544390093B063 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 236323FB197544390093B063 /* main.m */; };
+		23632402197544390093B063 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 23632401197544390093B063 /* AppDelegate.applescript */; };
+		23632405197544390093B063 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23632403197544390093B063 /* MainMenu.xib */; };
+		23AE26811975858A00145713 /* automation.icns in Resources */ = {isa = PBXBuildFile; fileRef = 23AE26801975858A00145713 /* automation.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		236323EA197544390093B063 /* Room Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Room Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		236323ED197544390093B063 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		236323EF197544390093B063 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		236323F2197544390093B063 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		236323F3197544390093B063 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		236323F4197544390093B063 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		236323F7197544390093B063 /* Room Controller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Room Controller-Info.plist"; sourceTree = "<group>"; };
+		236323F9197544390093B063 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		236323FB197544390093B063 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		236323FD197544390093B063 /* Room Controller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Room Controller-Prefix.pch"; sourceTree = "<group>"; };
+		23632401197544390093B063 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		23632404197544390093B063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		23AE26801975858A00145713 /* automation.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = automation.icns; path = ../automation.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		236323E7197544390093B063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236323F0197544390093B063 /* AppleScriptObjC.framework in Frameworks */,
+				236323EE197544390093B063 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		236323E1197544390093B063 = {
+			isa = PBXGroup;
+			children = (
+				236323F5197544390093B063 /* Room Controller */,
+				236323EC197544390093B063 /* Frameworks */,
+				236323EB197544390093B063 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		236323EB197544390093B063 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				236323EA197544390093B063 /* Room Controller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		236323EC197544390093B063 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				236323ED197544390093B063 /* Cocoa.framework */,
+				236323EF197544390093B063 /* AppleScriptObjC.framework */,
+				236323F1197544390093B063 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		236323F1197544390093B063 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				236323F2197544390093B063 /* AppKit.framework */,
+				236323F3197544390093B063 /* CoreData.framework */,
+				236323F4197544390093B063 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		236323F5197544390093B063 /* Room Controller */ = {
+			isa = PBXGroup;
+			children = (
+				23AE26801975858A00145713 /* automation.icns */,
+				23632401197544390093B063 /* AppDelegate.applescript */,
+				23632403197544390093B063 /* MainMenu.xib */,
+				236323F6197544390093B063 /* Supporting Files */,
+			);
+			path = "Room Controller";
+			sourceTree = "<group>";
+		};
+		236323F6197544390093B063 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				236323F7197544390093B063 /* Room Controller-Info.plist */,
+				236323F8197544390093B063 /* InfoPlist.strings */,
+				236323FB197544390093B063 /* main.m */,
+				236323FD197544390093B063 /* Room Controller-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		236323E9197544390093B063 /* Room Controller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2363240A197544390093B063 /* Build configuration list for PBXNativeTarget "Room Controller" */;
+			buildPhases = (
+				236323E6197544390093B063 /* Sources */,
+				236323E7197544390093B063 /* Frameworks */,
+				236323E8197544390093B063 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Room Controller";
+			productName = "Room Controller";
+			productReference = 236323EA197544390093B063 /* Room Controller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		236323E2197544390093B063 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "TomTec Solutions";
+				TargetAttributes = {
+					236323E9197544390093B063 = {
+						DevelopmentTeam = 6KF5L5B99G;
+					};
+				};
+			};
+			buildConfigurationList = 236323E5197544390093B063 /* Build configuration list for PBXProject "Room Controller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 236323E1197544390093B063;
+			productRefGroup = 236323EB197544390093B063 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				236323E9197544390093B063 /* Room Controller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		236323E8197544390093B063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AE26811975858A00145713 /* automation.icns in Resources */,
+				236323FA197544390093B063 /* InfoPlist.strings in Resources */,
+				23632405197544390093B063 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		236323E6197544390093B063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23632402197544390093B063 /* AppDelegate.applescript in Sources */,
+				236323FC197544390093B063 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		236323F8197544390093B063 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				236323F9197544390093B063 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		23632403197544390093B063 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23632404197544390093B063 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23632408197544390093B063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		23632409197544390093B063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2363240B197544390093B063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Room Controller/Room Controller-Prefix.pch";
+				INFOPLIST_FILE = "Room Controller/Room Controller-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2363240C197544390093B063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Room Controller/Room Controller-Prefix.pch";
+				INFOPLIST_FILE = "Room Controller/Room Controller-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		236323E5197544390093B063 /* Build configuration list for PBXProject "Room Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23632408197544390093B063 /* Debug */,
+				23632409197544390093B063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2363240A197544390093B063 /* Build configuration list for PBXNativeTarget "Room Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2363240B197544390093B063 /* Debug */,
+				2363240C197544390093B063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 236323E2197544390093B063 /* Project object */;
+}

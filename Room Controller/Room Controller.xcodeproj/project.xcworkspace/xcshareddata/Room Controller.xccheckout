@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8E1F1146-DCDC-4B31-B1A2-08E3FECED0F5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Room Controller</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EE32E471-AB06-49B2-98A4-89B4C4B39C22</key>
+		<string>https://github.com/tjone270/Room-Controller.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Room Controller.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EE32E471-AB06-49B2-98A4-89B4C4B39C22</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tjone270/Room-Controller.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EE32E471-AB06-49B2-98A4-89B4C4B39C22</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EE32E471-AB06-49B2-98A4-89B4C4B39C22</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Room Controller</string>
+		</dict>
+	</array>
+</dict>
+</plist>
